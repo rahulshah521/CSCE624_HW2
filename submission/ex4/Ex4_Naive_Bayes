@@ -1,0 +1,365 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     gesture_features
+Instances:    160
+Attributes:   46
+              Angle of BB diagonal
+              Aspect
+              Average curvature
+              Average squared speed
+              Bounding box area
+              Bounding box diagonal
+              Bounding box height
+              Bounding box width
+              Convex hull area ratio
+              Cos of first to last
+              Cos of initial angle
+              Curviness
+              DCR
+              Density 1
+              Density 2
+              Distance first to last
+              Enclosing rectangle ratio
+              Entropy
+              Least square error
+              Length perimeter ratio
+              Length ratio
+              Log BB area
+              Log aspect
+              Log longest BB side
+              Log total length
+              Max curvature
+              Max speed squared
+              Min speed squared
+              Movement
+              NDDE
+              Openness
+              Overtracing
+              Perimeter efficiency
+              Perimeter to area
+              Point ratio
+              Sharpness
+              Sin of first to last
+              Sin of initial angle
+              Thinness ratio
+              Total angle
+              Total angle / total length
+              Total duration
+              Total length
+              Total length / BB diagonal
+              Width to height ratio
+              label
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                   Class
+Attribute                       gesture2    gesture1    gesture4    gesture3
+                                  (0.25)      (0.25)      (0.25)      (0.25)
+=============================================================================
+Angle of BB diagonal
+  mean                              0.049      1.5281      0.0425      0.8543
+  std. dev.                        0.0257      0.0205      0.0233      0.0481
+  weight sum                           40          40          40          40
+  precision                          0.01        0.01        0.01        0.01
+
+Aspect
+  mean                             0.7359      0.7425      0.7417      0.0703
+  std. dev.                        0.0256       0.021      0.0232      0.0455
+  weight sum                           40          40          40          40
+  precision                        0.0049      0.0049      0.0049      0.0049
+
+Average curvature
+  mean                             0.0692      0.0613      0.0379      0.3008
+  std. dev.                        0.0712      0.0319      0.0129      0.0421
+  weight sum                           40          40          40          40
+  precision                        0.0023      0.0023      0.0023      0.0023
+
+Average squared speed
+  mean                            29.1168     53.4863     29.7498     13.6089
+  std. dev.                       16.1253    157.1444      6.9627       6.096
+  weight sum                           40          40          40          40
+  precision                        6.3297      6.3297      6.3297      6.3297
+
+Bounding box area
+  mean                         35059.4026  21368.5179  34898.3333 232798.7282
+  std. dev.                    18816.7807  12595.4811  22624.9879  52499.2358
+  weight sum                           40          40          40          40
+  precision                     2147.5897   2147.5897   2147.5897   2147.5897
+
+Bounding box diagonal
+  mean                           845.0788    692.2158    879.2365    682.7552
+  std. dev.                      133.9382     78.0965    110.1142     75.8564
+  weight sum                           40          40          40          40
+  precision                        3.9834      3.9834      3.9834      3.9834
+
+Bounding box height
+  mean                            40.2408    692.3293     37.8875    513.9522
+  std. dev.                       21.2563     78.0758     22.3238     59.9338
+  weight sum                           40          40          40          40
+  precision                         9.413       9.413       9.413       9.413
+
+Bounding box width
+  mean                           843.2839     30.3178    878.0932    447.5805
+  std. dev.                      134.2235     16.6474    109.8681     56.0591
+  weight sum                           40          40          40          40
+  precision                        8.9831      8.9831      8.9831      8.9831
+
+Convex hull area ratio
+  mean                             0.5761      0.6057      0.5517      0.7968
+  std. dev.                        0.1082      0.1103      0.1009      0.0149
+  weight sum                           40          40          40          40
+  precision                        0.0035      0.0035      0.0035      0.0035
+
+Cos of first to last
+  mean                             0.9939     -0.0306     -0.9935     -0.2239
+  std. dev.                        0.0022       0.031      0.0022      0.7392
+  weight sum                           40          40          40          40
+  precision                        0.0129      0.0129      0.0129      0.0129
+
+Cos of initial angle
+  mean                             0.7084     -0.2866     -0.9871     -0.6837
+  std. dev.                        0.6095      0.2149      0.0157      0.4656
+  weight sum                           40          40          40          40
+  precision                        0.0198      0.0198      0.0198      0.0198
+
+Curviness
+  mean                             0.5142      0.6347      0.3977      2.9484
+  std. dev.                        0.2575      0.2514      0.1527      0.9032
+  weight sum                           40          40          40          40
+  precision                        0.0315      0.0315      0.0315      0.0315
+
+DCR
+  mean                             5.5094       4.434      2.6915      1.8572
+  std. dev.                        2.8278      1.4557      0.7499      0.3185
+  weight sum                           40          40          40          40
+  precision                        0.0778      0.0778      0.0778      0.0778
+
+Density 1
+  mean                             1.5138      1.5138      1.5138     40.4941
+  std. dev.                        0.2523      0.2523      0.2523     38.3304
+  weight sum                           40          40          40          40
+  precision                        1.5138      1.5138      1.5138      1.5138
+
+Density 2
+  mean                             0.0363      0.0462      0.0404      0.0068
+  std. dev.                        0.0277      0.0279      0.0376      0.0009
+  weight sum                           40          40          40          40
+  precision                         0.001       0.001       0.001       0.001
+
+Distance first to last
+  mean                           843.9273    692.7043     878.468     57.5678
+  std. dev.                        133.99     78.2446    109.7029     33.5932
+  weight sum                           40          40          40          40
+  precision                        6.8738      6.8738      6.8738      6.8738
+
+Enclosing rectangle ratio
+  mean                            10.3938      2.0699     24.4599      0.8903
+  std. dev.                       23.5771      9.3591     38.3922      0.1484
+  weight sum                           40          40          40          40
+  precision                        0.8903      0.8903      0.8903      0.8903
+
+Entropy
+  mean                             2.7277      2.4604      2.0738      3.8928
+  std. dev.                        0.4681      0.5249      0.0349      1.2187
+  weight sum                           40          40          40          40
+  precision                        0.0713      0.0713      0.0713      0.0713
+
+Least square error
+  mean                                  0 249459.0776           0 767407.2784
+  std. dev.                     1378.9888  223591.843   1378.9888 216673.9886
+  weight sum                           40          40          40          40
+  precision                     8273.9329   8273.9329   8273.9329   8273.9329
+
+Length perimeter ratio
+  mean                             0.5013      0.5009      0.5008        1.01
+  std. dev.                        0.0013      0.0007      0.0007      0.0409
+  weight sum                           40          40          40          40
+  precision                         0.004       0.004       0.004       0.004
+
+Length ratio
+  mean                             1.5138      1.5138      1.5138     40.4941
+  std. dev.                        0.2523      0.2523      0.2523     38.3304
+  weight sum                           40          40          40          40
+  precision                        1.5138      1.5138      1.5138      1.5138
+
+Log BB area
+  mean                            10.2672      9.7796      10.244     12.3326
+  std. dev.                        0.6843      0.6281      0.7343      0.2325
+  weight sum                           40          40          40          40
+  precision                         0.031       0.031       0.031       0.031
+
+Log aspect
+  mean                            -0.3053     -0.2983     -0.2983     -2.8451
+  std. dev.                        0.0378      0.0299      0.0312      0.6549
+  weight sum                           40          40          40          40
+  precision                        0.0281      0.0281      0.0281      0.0281
+
+Log longest BB side
+  mean                             6.7241      6.5323      6.7683      6.2369
+  std. dev.                        0.1706      0.1148       0.147      0.1138
+  weight sum                           40          40          40          40
+  precision                        0.0081      0.0081      0.0081      0.0081
+
+Log total length
+  mean                             6.7284      6.5353      6.7715      7.3284
+  std. dev.                        0.1708      0.1144      0.1468      0.1321
+  weight sum                           40          40          40          40
+  precision                        0.0094      0.0094      0.0094      0.0094
+
+Max curvature
+  mean                             0.6076      0.3354      0.1266      0.7074
+  std. dev.                        0.8871      0.2691      0.0622      0.3719
+  weight sum                           40          40          40          40
+  precision                        0.0261      0.0261      0.0261      0.0261
+
+Max speed squared
+  mean                           149.5108    504.0651     89.7065     23.4946
+  std. dev.                      170.6023   2033.2574      26.677     38.1478
+  weight sum                           40          40          40          40
+  precision                       85.4348     85.4348     85.4348     85.4348
+
+Min speed squared
+  mean                             0.2296      0.6101      4.6795      0.6541
+  std. dev.                        0.7436      1.1302      3.1173      0.5375
+  weight sum                           40          40          40          40
+  precision                        0.1258      0.1258      0.1258      0.1258
+
+Movement
+  mean                             1.1155      0.9334       0.406      7.0571
+  std. dev.                        1.0926      0.5883       0.171      0.6685
+  weight sum                           40          40          40          40
+  precision                         0.054       0.054       0.054       0.054
+
+NDDE
+  mean                             0.4778       0.502      0.4218      0.9237
+  std. dev.                        0.3157      0.3719      0.1723      0.0233
+  weight sum                           40          40          40          40
+  precision                        0.0061      0.0061      0.0061      0.0061
+
+Openness
+  mean                             0.9982       0.999       0.999      0.0821
+  std. dev.                        0.0025      0.0014      0.0014      0.0472
+  weight sum                           40          40          40          40
+  precision                        0.0082      0.0082      0.0082      0.0082
+
+Overtracing
+  mean                             0.1775      0.1486      0.0646      1.1232
+  std. dev.                        0.1739      0.0936      0.0272      0.1064
+  weight sum                           40          40          40          40
+  precision                        0.0086      0.0086      0.0086      0.0086
+
+Perimeter efficiency
+  mean                             0.1797      0.1933      0.1846      0.9742
+  std. dev.                         0.041      0.0353      0.0381      0.0139
+  weight sum                           40          40          40          40
+  precision                        0.0056      0.0056      0.0056      0.0056
+
+Perimeter to area
+  mean                             0.2885      0.2699      0.2569      0.0095
+  std. dev.                        0.1743      0.1058      0.1612      0.0021
+  weight sum                           40          40          40          40
+  precision                        0.0053      0.0053      0.0053      0.0053
+
+Point ratio
+  mean                             0.5388      0.5736      0.7043      0.8629
+  std. dev.                        0.1154      0.1101      0.1191      0.0571
+  weight sum                           40          40          40          40
+  precision                        0.0116      0.0116      0.0116      0.0116
+
+Sharpness
+  mean                             1.2673      0.2811      0.0299      2.9403
+  std. dev.                        2.7833      0.4928      0.0419      1.2368
+  weight sum                           40          40          40          40
+  precision                        0.0665      0.0665      0.0665      0.0665
+
+Sin of first to last
+  mean                            -0.0359      1.0013      0.0194     -0.0992
+  std. dev.                        0.0393      0.0058      0.0405      0.6263
+  weight sum                           40          40          40          40
+  precision                        0.0127      0.0127      0.0127      0.0127
+
+Sin of initial angle
+  mean                             -0.151      0.9074      0.0045     -0.4153
+  std. dev.                         0.309      0.2124      0.1052      0.3751
+  weight sum                           40          40          40          40
+  precision                        0.0198      0.0198      0.0198      0.0198
+
+Thinness ratio
+  mean                           468.8641    374.5352    435.8987      15.887
+  std. dev.                      262.3965    149.7463    240.4212      1.3239
+  weight sum                           40          40          40          40
+  precision                        7.9435      7.9435      7.9435      7.9435
+
+Total angle
+  mean                             1.1155      0.9334       0.406      7.0571
+  std. dev.                        1.0926      0.5883       0.171      0.6685
+  weight sum                           40          40          40          40
+  precision                         0.054       0.054       0.054       0.054
+
+Total angle / total length
+  mean                             0.0013      0.0014      0.0005      0.0047
+  std. dev.                        0.0014       0.001      0.0002      0.0008
+  weight sum                           40          40          40          40
+  precision                             0           0           0           0
+
+Total duration
+  mean                           208.8596    190.3058    178.7096    468.8712
+  std. dev.                       31.7702     16.3137     25.6242     61.2038
+  weight sum                           40          40          40          40
+  precision                        5.1538      5.1538      5.1538      5.1538
+
+Total length
+  mean                           846.1539    693.9872    879.6986   1535.0365
+  std. dev.                      133.9619     77.4099    109.4442     200.048
+  weight sum                           40          40          40          40
+  precision                        9.7231      9.7231      9.7231      9.7231
+
+Total length / BB diagonal
+  mean                             1.0006      1.0011      0.9994      2.2467
+  std. dev.                        0.0034      0.0044      0.0016      0.1047
+  weight sum                           40          40          40          40
+  precision                        0.0096      0.0096      0.0096      0.0096
+
+Width to height ratio
+  mean                             29.461           0     33.8565      0.9016
+  std. dev.                       20.2491      0.1503     28.8812      0.1503
+  weight sum                           40          40          40          40
+  precision                        0.9016      0.9016      0.9016      0.9016
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         159               99.375  %
+Incorrectly Classified Instances         1                0.625  %
+Kappa statistic                          0.9917
+Mean absolute error                      0.0031
+Root mean squared error                  0.0559
+Relative absolute error                  0.8333 %
+Root relative squared error             12.9099 %
+Total Number of Instances              160     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.008    0.976      1.000    0.988      0.984    0.996     0.976     gesture2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     gesture1
+                 0.975    0.000    1.000      0.975    0.987      0.983    1.000     1.000     gesture4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     gesture3
+Weighted Avg.    0.994    0.002    0.994      0.994    0.994      0.992    0.999     0.994     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 40  0  0  0 |  a = gesture2
+  0 40  0  0 |  b = gesture1
+  1  0 39  0 |  c = gesture4
+  0  0  0 40 |  d = gesture3
+

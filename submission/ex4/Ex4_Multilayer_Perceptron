@@ -1,0 +1,1361 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     gesture_features
+Instances:    160
+Attributes:   46
+              Angle of BB diagonal
+              Aspect
+              Average curvature
+              Average squared speed
+              Bounding box area
+              Bounding box diagonal
+              Bounding box height
+              Bounding box width
+              Convex hull area ratio
+              Cos of first to last
+              Cos of initial angle
+              Curviness
+              DCR
+              Density 1
+              Density 2
+              Distance first to last
+              Enclosing rectangle ratio
+              Entropy
+              Least square error
+              Length perimeter ratio
+              Length ratio
+              Log BB area
+              Log aspect
+              Log longest BB side
+              Log total length
+              Max curvature
+              Max speed squared
+              Min speed squared
+              Movement
+              NDDE
+              Openness
+              Overtracing
+              Perimeter efficiency
+              Perimeter to area
+              Point ratio
+              Sharpness
+              Sin of first to last
+              Sin of initial angle
+              Thinness ratio
+              Total angle
+              Total angle / total length
+              Total duration
+              Total length
+              Total length / BB diagonal
+              Width to height ratio
+              label
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.540849241613034
+    Node 4    0.31263651683981447
+    Node 5    -0.6841641285405665
+    Node 6    -1.8451969885861945
+    Node 7    -0.6882301412002223
+    Node 8    0.882565375437372
+    Node 9    0.8237282551599585
+    Node 10    0.37852868711747584
+    Node 11    1.0640405487951574
+    Node 12    1.0522580652401492
+    Node 13    -2.2678705477590952
+    Node 14    -0.563910351762831
+    Node 15    -1.329422816659653
+    Node 16    -1.4732413699664717
+    Node 17    -0.6682121935100455
+    Node 18    -1.1019235605059259
+    Node 19    0.08863403241758498
+    Node 20    0.2757062630592785
+    Node 21    0.21383794143926066
+    Node 22    -0.8456751978388823
+    Node 23    -0.7206787005919705
+    Node 24    -1.4056727457033968
+    Node 25    2.263610015170435
+    Node 26    -0.4767315179726959
+    Node 27    0.9313879080223746
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.49068511860278086
+    Node 4    1.0488304611010189
+    Node 5    0.3893543506385087
+    Node 6    0.5841910685075279
+    Node 7    -0.7499358344723849
+    Node 8    0.9862175576677307
+    Node 9    0.2201521127059746
+    Node 10    -0.6191369468639485
+    Node 11    -2.128192569784328
+    Node 12    -0.7965192397956812
+    Node 13    0.6672775556212015
+    Node 14    -0.7954015205638543
+    Node 15    1.966732261086252
+    Node 16    0.16321291578503908
+    Node 17    -0.25211704386068706
+    Node 18    -0.034591470736302955
+    Node 19    -0.8527408307455373
+    Node 20    -1.3982584212955267
+    Node 21    -2.2757872613452466
+    Node 22    1.660956920655594
+    Node 23    -0.6540195927915639
+    Node 24    -1.538543481215206
+    Node 25    -0.20042975333575477
+    Node 26    -1.0012543538143082
+    Node 27    -1.0674481187453306
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.4007584732077509
+    Node 4    -1.6379068648040367
+    Node 5    -0.5130655917062094
+    Node 6    1.4295341419685734
+    Node 7    -0.5049542544103005
+    Node 8    -1.3964383373775928
+    Node 9    -1.284696863885078
+    Node 10    0.68542796013293
+    Node 11    0.44331480195975903
+    Node 12    -0.6345468559110863
+    Node 13    1.322487982111749
+    Node 14    -0.6918146312395409
+    Node 15    -1.7674820623601761
+    Node 16    -0.13076422588603198
+    Node 17    -0.8904235602438992
+    Node 18    0.5494874030403915
+    Node 19    -0.8580788075706414
+    Node 20    -0.833077289911261
+    Node 21    1.6269935862119442
+    Node 22    -1.2749604585326593
+    Node 23    -0.5933810255000911
+    Node 24    1.8352344820745965
+    Node 25    -1.9826303142276616
+    Node 26    -0.6546655663047052
+    Node 27    -1.2155461838460417
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.7414172967528964
+    Node 4    -0.5758612536134116
+    Node 5    -0.056261431130045975
+    Node 6    -1.3004412533802172
+    Node 7    1.0695328263533674
+    Node 8    -1.426654268607278
+    Node 9    -0.701930806729934
+    Node 10    -1.6837610151832614
+    Node 11    -0.5634135407599048
+    Node 12    -0.40397090705976724
+    Node 13    -0.8472732158040234
+    Node 14    1.2304578584197414
+    Node 15    0.2405503169494216
+    Node 16    0.25045065275278533
+    Node 17    0.9626070056072868
+    Node 18    -0.42867149985470565
+    Node 19    0.6374654600492643
+    Node 20    0.997716208141682
+    Node 21    -0.8063080810847311
+    Node 22    -0.28575047516212426
+    Node 23    1.155821664047702
+    Node 24    0.021442574585044318
+    Node 25    -0.99475969542379
+    Node 26    1.2774211501955965
+    Node 27    0.18982858188937476
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.05246322162134378
+    Attrib Angle of BB diagonal    0.5702205989370359
+    Attrib Aspect    0.13754762383402735
+    Attrib Average curvature    0.0260010876580724
+    Attrib Average squared speed    0.08266582335367212
+    Attrib Bounding box area    -0.13947976860286002
+    Attrib Bounding box diagonal    -0.004376186971009425
+    Attrib Bounding box height    0.44289178519402644
+    Attrib Bounding box width    -0.3944179702248567
+    Attrib Convex hull area ratio    0.001734659001267163
+    Attrib Cos of first to last    0.8779495142750642
+    Attrib Cos of initial angle    0.6607019347283275
+    Attrib Curviness    -0.07958448812434277
+    Attrib DCR    0.2230965311918915
+    Attrib Density 1    -0.03184257399955499
+    Attrib Density 2    -0.008254879227873132
+    Attrib Distance first to last    0.0663483982693323
+    Attrib Enclosing rectangle ratio    -0.13618847070014678
+    Attrib Entropy    0.1058313691004419
+    Attrib Least square error    0.055346009787754995
+    Attrib Length perimeter ratio    -0.14710877966125244
+    Attrib Length ratio    0.03382315542803424
+    Attrib Log BB area    -0.13704034230393577
+    Attrib Log aspect    0.11759839523870266
+    Attrib Log longest BB side    -0.01901959502050492
+    Attrib Log total length    -0.15242654280997228
+    Attrib Max curvature    0.17824662724176787
+    Attrib Max speed squared    0.062287173255939236
+    Attrib Min speed squared    -0.34166720053102295
+    Attrib Movement    0.012179339196784565
+    Attrib NDDE    0.0248450699941524
+    Attrib Openness    0.21506999835143437
+    Attrib Overtracing    -0.049332995910915514
+    Attrib Perimeter efficiency    -0.22293208249597432
+    Attrib Perimeter to area    0.06498276874443111
+    Attrib Point ratio    -0.23274180012161527
+    Attrib Sharpness    0.1247904615814175
+    Attrib Sin of first to last    0.315075831887938
+    Attrib Sin of initial angle    0.30732985348965586
+    Attrib Thinness ratio    0.08822800237766758
+    Attrib Total angle    -0.03426428874338781
+    Attrib Total angle / total length    0.12684002661677543
+    Attrib Total duration    -0.042182027810049774
+    Attrib Total length    -0.15475016586901588
+    Attrib Total length / BB diagonal    -0.18506164331457042
+    Attrib Width to height ratio    -0.12017950720004002
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.03951635564639383
+    Attrib Angle of BB diagonal    0.4605346337632198
+    Attrib Aspect    0.00700156607339256
+    Attrib Average curvature    0.004337187557317025
+    Attrib Average squared speed    0.041411405738119696
+    Attrib Bounding box area    0.00887613042497942
+    Attrib Bounding box diagonal    -0.07729778121133152
+    Attrib Bounding box height    0.4026997089494657
+    Attrib Bounding box width    -0.33316751389478827
+    Attrib Convex hull area ratio    0.030143985782032742
+    Attrib Cos of first to last    -0.13720654626514367
+    Attrib Cos of initial angle    -0.0983135123690223
+    Attrib Curviness    -0.00980881121350678
+    Attrib DCR    -0.014807985055007543
+    Attrib Density 1    0.03883067558273024
+    Attrib Density 2    -0.03952964531098115
+    Attrib Distance first to last    -0.0842204429634955
+    Attrib Enclosing rectangle ratio    -0.0918547091088529
+    Attrib Entropy    0.02519630472621705
+    Attrib Least square error    0.08527201710219558
+    Attrib Length perimeter ratio    0.05774581941004421
+    Attrib Length ratio    -0.007749612029789393
+    Attrib Log BB area    -0.041616732201671815
+    Attrib Log aspect    -0.03239530499075271
+    Attrib Log longest BB side    -0.0532862716547318
+    Attrib Log total length    -6.63782992861034E-4
+    Attrib Max curvature    -0.016538972653221413
+    Attrib Max speed squared    0.0036281173768341886
+    Attrib Min speed squared    -0.04521392601822927
+    Attrib Movement    0.06874487267314326
+    Attrib NDDE    0.015877249490019403
+    Attrib Openness    -0.020638402550673566
+    Attrib Overtracing    4.1084553205780007E-4
+    Attrib Perimeter efficiency    0.033522227596472484
+    Attrib Perimeter to area    -0.0742783781895035
+    Attrib Point ratio    0.02913520113702973
+    Attrib Sharpness    -0.015360053603301123
+    Attrib Sin of first to last    0.2006520583793845
+    Attrib Sin of initial angle    0.20819336984846318
+    Attrib Thinness ratio    -0.019067366680412617
+    Attrib Total angle    0.06277227692794826
+    Attrib Total angle / total length    0.007397256802882229
+    Attrib Total duration    0.04556807105015055
+    Attrib Total length    -0.017251112786969135
+    Attrib Total length / BB diagonal    6.858270172541628E-4
+    Attrib Width to height ratio    -0.08637738459412544
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.16576868031490932
+    Attrib Angle of BB diagonal    0.3489065846272762
+    Attrib Aspect    0.16924697675268635
+    Attrib Average curvature    -0.29593164366026425
+    Attrib Average squared speed    0.19772680190834804
+    Attrib Bounding box area    -0.12036896387930196
+    Attrib Bounding box diagonal    0.04373497465975609
+    Attrib Bounding box height    0.25368977329110526
+    Attrib Bounding box width    -0.2643911142931272
+    Attrib Convex hull area ratio    -0.17558591022993764
+    Attrib Cos of first to last    -1.3543533636155636
+    Attrib Cos of initial angle    -0.9058778190054686
+    Attrib Curviness    -0.049554059904778736
+    Attrib DCR    -0.04166151903361172
+    Attrib Density 1    0.17455567268518393
+    Attrib Density 2    0.16920157632303304
+    Attrib Distance first to last    0.14392123771124574
+    Attrib Enclosing rectangle ratio    0.2839355484790067
+    Attrib Entropy    -0.20325444515926536
+    Attrib Least square error    0.009711847470558551
+    Attrib Length perimeter ratio    -0.13249332873334488
+    Attrib Length ratio    0.13880292121984464
+    Attrib Log BB area    -0.13904615426975425
+    Attrib Log aspect    0.05458869159850388
+    Attrib Log longest BB side    0.0580500036940785
+    Attrib Log total length    -0.11544145010454027
+    Attrib Max curvature    -0.16801162860058724
+    Attrib Max speed squared    0.17291355693089877
+    Attrib Min speed squared    0.5216559857606348
+    Attrib Movement    -0.2647856140498999
+    Attrib NDDE    -0.19542048181204588
+    Attrib Openness    0.14781461337786198
+    Attrib Overtracing    -0.2196431593033649
+    Attrib Perimeter efficiency    -0.16849307132478894
+    Attrib Perimeter to area    0.03303937441107758
+    Attrib Point ratio    0.03805379822572009
+    Attrib Sharpness    -0.10864681693032034
+    Attrib Sin of first to last    0.286757283987308
+    Attrib Sin of initial angle    0.38020300425291
+    Attrib Thinness ratio    0.08123990987256229
+    Attrib Total angle    -0.2756453439278252
+    Attrib Total angle / total length    -0.21900823431949917
+    Attrib Total duration    -0.1615576266320225
+    Attrib Total length    -0.0770786277066744
+    Attrib Total length / BB diagonal    -0.10889858094269096
+    Attrib Width to height ratio    0.11219752232531906
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.02339302359533003
+    Attrib Angle of BB diagonal    0.026287503284370312
+    Attrib Aspect    -0.30871831644327574
+    Attrib Average curvature    0.15038438948599256
+    Attrib Average squared speed    0.04407020045044222
+    Attrib Bounding box area    0.1808026554628801
+    Attrib Bounding box diagonal    -0.03116639791312447
+    Attrib Bounding box height    0.08538848764214856
+    Attrib Bounding box width    0.016750975398140362
+    Attrib Convex hull area ratio    0.11494950419458981
+    Attrib Cos of first to last    -0.1094121132778608
+    Attrib Cos of initial angle    -0.13949394608122517
+    Attrib Curviness    0.1762116008651064
+    Attrib DCR    -0.08139459008202933
+    Attrib Density 1    0.0539622748720389
+    Attrib Density 2    -0.019014069525289338
+    Attrib Distance first to last    -0.26925658104360867
+    Attrib Enclosing rectangle ratio    -0.045428200978546475
+    Attrib Entropy    0.11547479700536704
+    Attrib Least square error    0.21282211331722095
+    Attrib Length perimeter ratio    0.3207536333823151
+    Attrib Length ratio    0.10336922975763498
+    Attrib Log BB area    0.10581802798217069
+    Attrib Log aspect    -0.2087660499445436
+    Attrib Log longest BB side    -0.1462362102897544
+    Attrib Log total length    0.15546930387039498
+    Attrib Max curvature    -0.047859844113957585
+    Attrib Max speed squared    0.05077221583595036
+    Attrib Min speed squared    0.02059530289103185
+    Attrib Movement    0.20632962507822228
+    Attrib NDDE    0.17029282159091333
+    Attrib Openness    -0.30796301659489755
+    Attrib Overtracing    0.18680278979721088
+    Attrib Perimeter efficiency    0.3097531769961289
+    Attrib Perimeter to area    -0.12296945392238733
+    Attrib Point ratio    0.1137781319811875
+    Attrib Sharpness    0.010158149793738717
+    Attrib Sin of first to last    -0.05131410444646212
+    Attrib Sin of initial angle    -0.11461798459843023
+    Attrib Thinness ratio    -0.07681731977294343
+    Attrib Total angle    0.27225091182121713
+    Attrib Total angle / total length    0.09762123773858086
+    Attrib Total duration    0.1884294993943916
+    Attrib Total length    0.15422951728466983
+    Attrib Total length / BB diagonal    0.2835632081666642
+    Attrib Width to height ratio    -0.011765679519829583
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.039812742265515316
+    Attrib Angle of BB diagonal    0.47561161220302994
+    Attrib Aspect    0.2798662011405487
+    Attrib Average curvature    0.038461277302503406
+    Attrib Average squared speed    0.1108763096072227
+    Attrib Bounding box area    -0.13541364513401294
+    Attrib Bounding box diagonal    -0.05013874003667317
+    Attrib Bounding box height    0.3300019546991229
+    Attrib Bounding box width    -0.35477453885292964
+    Attrib Convex hull area ratio    -0.07429690279781347
+    Attrib Cos of first to last    1.040708913205626
+    Attrib Cos of initial angle    0.7846963062210613
+    Attrib Curviness    -0.09457654262764525
+    Attrib DCR    0.38213384707030806
+    Attrib Density 1    -0.01343803972858047
+    Attrib Density 2    0.04299475049961662
+    Attrib Distance first to last    0.19112244209824383
+    Attrib Enclosing rectangle ratio    -0.12579040845082157
+    Attrib Entropy    0.14655537041178254
+    Attrib Least square error    -0.04666343978848873
+    Attrib Length perimeter ratio    -0.2748372180844338
+    Attrib Length ratio    0.03530906331352746
+    Attrib Log BB area    -0.1451941374720546
+    Attrib Log aspect    0.1854896686838196
+    Attrib Log longest BB side    0.09226730810299213
+    Attrib Log total length    -0.18285341788374906
+    Attrib Max curvature    0.26447257524171164
+    Attrib Max speed squared    0.12091225407198103
+    Attrib Min speed squared    -0.2717605374751291
+    Attrib Movement    -0.059690045399567994
+    Attrib NDDE    0.02755405717394605
+    Attrib Openness    0.2705256197840141
+    Attrib Overtracing    -0.0748865264291181
+    Attrib Perimeter efficiency    -0.2642157940674123
+    Attrib Perimeter to area    0.11906657474896197
+    Attrib Point ratio    -0.2820802173245037
+    Attrib Sharpness    0.19343241352122645
+    Attrib Sin of first to last    0.2992680479621951
+    Attrib Sin of initial angle    0.22370064723809369
+    Attrib Thinness ratio    0.06793981988201042
+    Attrib Total angle    -0.024323050644321484
+    Attrib Total angle / total length    0.14321702417295065
+    Attrib Total duration    -0.0841490572544265
+    Attrib Total length    -0.2036989287042627
+    Attrib Total length / BB diagonal    -0.2783789153014428
+    Attrib Width to height ratio    -0.031040068855273613
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.0077535244205954555
+    Attrib Angle of BB diagonal    0.205761337191796
+    Attrib Aspect    0.11411377285739434
+    Attrib Average curvature    0.0639184884620272
+    Attrib Average squared speed    0.054476052189170135
+    Attrib Bounding box area    -0.1479277476864707
+    Attrib Bounding box diagonal    0.0032080668701264924
+    Attrib Bounding box height    0.09569104464460598
+    Attrib Bounding box width    -0.19666030068930968
+    Attrib Convex hull area ratio    -0.03121765727202735
+    Attrib Cos of first to last    0.9742999602403426
+    Attrib Cos of initial angle    0.7305874425809097
+    Attrib Curviness    -0.06187417671793255
+    Attrib DCR    0.2889826469179471
+    Attrib Density 1    0.014001264300937712
+    Attrib Density 2    0.005357616979837341
+    Attrib Distance first to last    0.08103409010209559
+    Attrib Enclosing rectangle ratio    -0.11967895412310009
+    Attrib Entropy    0.07769418659519213
+    Attrib Least square error    -0.052479275576043156
+    Attrib Length perimeter ratio    -0.17013044486585607
+    Attrib Length ratio    -0.0516790321453671
+    Attrib Log BB area    -0.059895218499482254
+    Attrib Log aspect    0.0941686133754219
+    Attrib Log longest BB side    0.008158661759120176
+    Attrib Log total length    -0.10628085928459097
+    Attrib Max curvature    0.2353164684229432
+    Attrib Max speed squared    0.05763235423667221
+    Attrib Min speed squared    -0.2891054861193438
+    Attrib Movement    0.01953336068183921
+    Attrib NDDE    -0.042079038910686956
+    Attrib Openness    0.18231903355549867
+    Attrib Overtracing    0.01962453527496208
+    Attrib Perimeter efficiency    -0.15490972347701884
+    Attrib Perimeter to area    0.06676852459738579
+    Attrib Point ratio    -0.24236482663197206
+    Attrib Sharpness    0.1255367957694723
+    Attrib Sin of first to last    0.12228017209691218
+    Attrib Sin of initial angle    0.1523293808476885
+    Attrib Thinness ratio    0.08717911452441333
+    Attrib Total angle    -0.0652364913716955
+    Attrib Total angle / total length    0.07089699987353548
+    Attrib Total duration    -0.059616953353990726
+    Attrib Total length    -0.11616740373050527
+    Attrib Total length / BB diagonal    -0.1038752223343644
+    Attrib Width to height ratio    -0.06851346339103107
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.09825406878130215
+    Attrib Angle of BB diagonal    -0.5371007372964197
+    Attrib Aspect    0.19286742568056456
+    Attrib Average curvature    -0.11322915779278724
+    Attrib Average squared speed    0.07438172588230996
+    Attrib Bounding box area    -0.06236061728154617
+    Attrib Bounding box diagonal    0.1344523256181255
+    Attrib Bounding box height    -0.4307391307401882
+    Attrib Bounding box width    0.39801583961479403
+    Attrib Convex hull area ratio    -0.1899208818397145
+    Attrib Cos of first to last    -0.020973173815244505
+    Attrib Cos of initial angle    -0.01430460859240155
+    Attrib Curviness    -0.12031314079634106
+    Attrib DCR    0.09519494459271916
+    Attrib Density 1    0.020720560522807106
+    Attrib Density 2    0.09390088631977041
+    Attrib Distance first to last    0.2052606921129018
+    Attrib Enclosing rectangle ratio    0.1772153901482971
+    Attrib Entropy    -0.03670756698191381
+    Attrib Least square error    -0.15831909960593993
+    Attrib Length perimeter ratio    -0.1815775510535965
+    Attrib Length ratio    -0.02212549570173239
+    Attrib Log BB area    -0.11506720682851183
+    Attrib Log aspect    0.12915970339243218
+    Attrib Log longest BB side    0.19721806154448301
+    Attrib Log total length    -0.11051621756746448
+    Attrib Max curvature    0.023909874580689716
+    Attrib Max speed squared    0.025917387181715736
+    Attrib Min speed squared    0.1272404524027978
+    Attrib Movement    -0.19245927087339385
+    Attrib NDDE    -0.12609992951072121
+    Attrib Openness    0.1817051529081302
+    Attrib Overtracing    -0.16168817221386997
+    Attrib Perimeter efficiency    -0.19958157507280286
+    Attrib Perimeter to area    0.1460455819524867
+    Attrib Point ratio    -0.058625762084002275
+    Attrib Sharpness    0.013265270772558081
+    Attrib Sin of first to last    -0.22002237659248303
+    Attrib Sin of initial angle    -0.16627480282697776
+    Attrib Thinness ratio    0.16109637800841228
+    Attrib Total angle    -0.14594720819372922
+    Attrib Total angle / total length    -0.12213412559004078
+    Attrib Total duration    -0.10559983820733448
+    Attrib Total length    -0.08569086377516928
+    Attrib Total length / BB diagonal    -0.18743099214538086
+    Attrib Width to height ratio    0.20154476896795945
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.046297961914669415
+    Attrib Angle of BB diagonal    -0.963739341800173
+    Attrib Aspect    0.0797633960230182
+    Attrib Average curvature    0.013196216861076384
+    Attrib Average squared speed    -0.08697060807954914
+    Attrib Bounding box area    -0.027193061345466632
+    Attrib Bounding box diagonal    0.11451396263673314
+    Attrib Bounding box height    -0.8444026781159029
+    Attrib Bounding box width    0.744749238318363
+    Attrib Convex hull area ratio    -0.05445006476181908
+    Attrib Cos of first to last    0.33197628778226757
+    Attrib Cos of initial angle    0.28774499798446856
+    Attrib Curviness    -0.054060660719995185
+    Attrib DCR    0.004879053650892056
+    Attrib Density 1    -0.04437732957198075
+    Attrib Density 2    -0.055838109087962245
+    Attrib Distance first to last    0.09270813876371091
+    Attrib Enclosing rectangle ratio    0.028832636727622325
+    Attrib Entropy    -0.06563601681049233
+    Attrib Least square error    -0.1858656320911096
+    Attrib Length perimeter ratio    -0.08382622712855597
+    Attrib Length ratio    -0.04631646247434369
+    Attrib Log BB area    0.004909699553916226
+    Attrib Log aspect    0.03772925584572501
+    Attrib Log longest BB side    0.14575606177029357
+    Attrib Log total length    0.08700616298941688
+    Attrib Max curvature    0.04650666875172762
+    Attrib Max speed squared    -0.05645842330630905
+    Attrib Min speed squared    -0.001142092097471407
+    Attrib Movement    0.009323853515881258
+    Attrib NDDE    -0.042678169153746545
+    Attrib Openness    0.0036424623734866123
+    Attrib Overtracing    -0.008988677062876016
+    Attrib Perimeter efficiency    -0.08179584306714625
+    Attrib Perimeter to area    0.04036079216196306
+    Attrib Point ratio    0.032219020209381354
+    Attrib Sharpness    0.03934543596440913
+    Attrib Sin of first to last    -0.45404555906307476
+    Attrib Sin of initial angle    -0.4783125337570537
+    Attrib Thinness ratio    0.0480203665552595
+    Attrib Total angle    -0.006478990018835638
+    Attrib Total angle / total length    -0.06248157845669847
+    Attrib Total duration    0.016761902642926162
+    Attrib Total length    0.023402854572513617
+    Attrib Total length / BB diagonal    -0.014523872108826996
+    Attrib Width to height ratio    0.15606178217942604
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.009414650262552495
+    Attrib Angle of BB diagonal    -0.427309669760385
+    Attrib Aspect    0.013841696804285307
+    Attrib Average curvature    0.09671591523896016
+    Attrib Average squared speed    -0.012242095113983316
+    Attrib Bounding box area    -0.05801722521137049
+    Attrib Bounding box diagonal    0.09178504180297734
+    Attrib Bounding box height    -0.3373082706342426
+    Attrib Bounding box width    0.3016031321491249
+    Attrib Convex hull area ratio    -0.052695745953993775
+    Attrib Cos of first to last    0.8115404504581478
+    Attrib Cos of initial angle    0.6434882532995527
+    Attrib Curviness    -0.005072970890548627
+    Attrib DCR    0.16765539854416842
+    Attrib Density 1    0.018572670273514905
+    Attrib Density 2    0.05361868545534585
+    Attrib Distance first to last    0.03602169724495795
+    Attrib Enclosing rectangle ratio    -0.04068140596327831
+    Attrib Entropy    0.12557596820869324
+    Attrib Least square error    -0.07498290678877564
+    Attrib Length perimeter ratio    -0.006959291373536184
+    Attrib Length ratio    0.03967858387642901
+    Attrib Log BB area    -0.004709654037880964
+    Attrib Log aspect    -0.018300343693171257
+    Attrib Log longest BB side    0.025096048775824064
+    Attrib Log total length    -0.04021383102977157
+    Attrib Max curvature    0.15996676253094536
+    Attrib Max speed squared    0.03646909284037107
+    Attrib Min speed squared    -0.11764794073358874
+    Attrib Movement    0.01909226691626447
+    Attrib NDDE    -0.06036370464838139
+    Attrib Openness    0.07432705147714401
+    Attrib Overtracing    0.07314888985765805
+    Attrib Perimeter efficiency    -0.06877980018515956
+    Attrib Perimeter to area    0.12052255793260319
+    Attrib Point ratio    -0.11293422238268047
+    Attrib Sharpness    0.20344675639098353
+    Attrib Sin of first to last    -0.14786093707159753
+    Attrib Sin of initial angle    -0.178450991728062
+    Attrib Thinness ratio    0.1112504359825316
+    Attrib Total angle    0.0844971022017622
+    Attrib Total angle / total length    0.047349031994866043
+    Attrib Total duration    -0.018470089673967356
+    Attrib Total length    0.029513550134211686
+    Attrib Total length / BB diagonal    -0.04125464115106338
+    Attrib Width to height ratio    0.09690705226613075
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.14819589827922725
+    Attrib Angle of BB diagonal    0.4479426391327469
+    Attrib Aspect    0.15719663669597955
+    Attrib Average curvature    -0.23233593870789496
+    Attrib Average squared speed    0.15479445054348817
+    Attrib Bounding box area    -0.04697384727171346
+    Attrib Bounding box diagonal    -0.03702372057351504
+    Attrib Bounding box height    0.32692301541573443
+    Attrib Bounding box width    -0.30767184047465224
+    Attrib Convex hull area ratio    -0.1447593620076659
+    Attrib Cos of first to last    -1.4023415384960483
+    Attrib Cos of initial angle    -1.003461690458555
+    Attrib Curviness    -0.04034219239281353
+    Attrib DCR    -0.1052438869131599
+    Attrib Density 1    0.09234024136916391
+    Attrib Density 2    0.20273490443178493
+    Attrib Distance first to last    0.17998462363941425
+    Attrib Enclosing rectangle ratio    0.22113562134408102
+    Attrib Entropy    -0.2352254617928827
+    Attrib Least square error    0.08855278173345092
+    Attrib Length perimeter ratio    -0.10205209659150019
+    Attrib Length ratio    0.1636056964624725
+    Attrib Log BB area    -0.13287917445343186
+    Attrib Log aspect    0.010581272962419444
+    Attrib Log longest BB side    0.09568134463393843
+    Attrib Log total length    -0.14620659183936838
+    Attrib Max curvature    -0.22548501846115793
+    Attrib Max speed squared    0.13951741292457676
+    Attrib Min speed squared    0.4835200055545716
+    Attrib Movement    -0.2638825708679371
+    Attrib NDDE    -0.18542819584613235
+    Attrib Openness    0.12358475874863357
+    Attrib Overtracing    -0.19788262298323156
+    Attrib Perimeter efficiency    -0.07545315189177397
+    Attrib Perimeter to area    0.03522525371685965
+    Attrib Point ratio    0.08725573668166678
+    Attrib Sharpness    -0.19650644502455825
+    Attrib Sin of first to last    0.28745076946677167
+    Attrib Sin of initial angle    0.36126847401212087
+    Attrib Thinness ratio    0.04621543026120253
+    Attrib Total angle    -0.2723361691451739
+    Attrib Total angle / total length    -0.21200046616450471
+    Attrib Total duration    -0.11469489399027137
+    Attrib Total length    -0.062318335713155974
+    Attrib Total length / BB diagonal    -0.14569949143038097
+    Attrib Width to height ratio    0.11037047388797538
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.0032334849835882807
+    Attrib Angle of BB diagonal    0.02877584625086254
+    Attrib Aspect    -0.3028459166072395
+    Attrib Average curvature    0.17785927649195038
+    Attrib Average squared speed    -0.02595337267864689
+    Attrib Bounding box area    0.1943889929942924
+    Attrib Bounding box diagonal    -0.05387530069822928
+    Attrib Bounding box height    0.11006981882672479
+    Attrib Bounding box width    -0.058332211228996345
+    Attrib Convex hull area ratio    0.13989673653663487
+    Attrib Cos of first to last    0.05855416301771803
+    Attrib Cos of initial angle    -0.043717601633212276
+    Attrib Curviness    0.14035954296538125
+    Attrib DCR    -0.09410318014982672
+    Attrib Density 1    0.08733071793963577
+    Attrib Density 2    -0.01789142028848734
+    Attrib Distance first to last    -0.2188788129314715
+    Attrib Enclosing rectangle ratio    -0.02165637951874247
+    Attrib Entropy    0.1301263739725104
+    Attrib Least square error    0.15890320389706905
+    Attrib Length perimeter ratio    0.31589090088772553
+    Attrib Length ratio    0.019198839498042436
+    Attrib Log BB area    0.14557876826796015
+    Attrib Log aspect    -0.24148375825838364
+    Attrib Log longest BB side    -0.19800034143465334
+    Attrib Log total length    0.1856082015449453
+    Attrib Max curvature    0.04095890370458961
+    Attrib Max speed squared    0.03219087036231852
+    Attrib Min speed squared    0.015134678467615346
+    Attrib Movement    0.26074941567113735
+    Attrib NDDE    0.16398177956838939
+    Attrib Openness    -0.37207150262658634
+    Attrib Overtracing    0.25961263985311517
+    Attrib Perimeter efficiency    0.35265570093935567
+    Attrib Perimeter to area    -0.05115933443770758
+    Attrib Point ratio    0.15081416496422576
+    Attrib Sharpness    0.10347176424946092
+    Attrib Sin of first to last    -0.0769824904374132
+    Attrib Sin of initial angle    -0.1477278921523529
+    Attrib Thinness ratio    -0.1139647408332149
+    Attrib Total angle    0.2665290419333214
+    Attrib Total angle / total length    0.13777762489777448
+    Attrib Total duration    0.2076821604443361
+    Attrib Total length    0.13548466021229832
+    Attrib Total length / BB diagonal    0.2528259651243679
+    Attrib Width to height ratio    -0.04896375998338177
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.013805646774726087
+    Attrib Angle of BB diagonal    1.1619663278741634
+    Attrib Aspect    -0.12159123430604628
+    Attrib Average curvature    0.13317286817615562
+    Attrib Average squared speed    -0.040081482126976396
+    Attrib Bounding box area    -0.011964795762050262
+    Attrib Bounding box diagonal    -0.23549380824712365
+    Attrib Bounding box height    0.9375016813566341
+    Attrib Bounding box width    -0.8974034967523526
+    Attrib Convex hull area ratio    0.1128215482877923
+    Attrib Cos of first to last    0.05575315128122347
+    Attrib Cos of initial angle    -0.041952867751296016
+    Attrib Curviness    0.09238351237039236
+    Attrib DCR    -0.009090761085698004
+    Attrib Density 1    0.03083950064393713
+    Attrib Density 2    -0.005988900894828847
+    Attrib Distance first to last    -0.17307415642035773
+    Attrib Enclosing rectangle ratio    -0.2057479707131899
+    Attrib Entropy    0.08733634208786657
+    Attrib Least square error    0.2505208026958068
+    Attrib Length perimeter ratio    0.04136578311541499
+    Attrib Length ratio    0.023634891716181758
+    Attrib Log BB area    0.01036174349187044
+    Attrib Log aspect    -0.013124493086567364
+    Attrib Log longest BB side    -0.23053189440952224
+    Attrib Log total length    -0.023291925504337885
+    Attrib Max curvature    -0.0211059436464489
+    Attrib Max speed squared    0.05823106198405778
+    Attrib Min speed squared    -0.20481453903593402
+    Attrib Movement    0.07286389789549089
+    Attrib NDDE    0.1136116212865604
+    Attrib Openness    -0.11344354976348635
+    Attrib Overtracing    0.059209166763664604
+    Attrib Perimeter efficiency    0.06860498324075107
+    Attrib Perimeter to area    -0.0434070194826182
+    Attrib Point ratio    -0.06760086995557128
+    Attrib Sharpness    -0.09364882573543756
+    Attrib Sin of first to last    0.4983613497482103
+    Attrib Sin of initial angle    0.4764321207802917
+    Attrib Thinness ratio    -0.1449893113364412
+    Attrib Total angle    0.05851361893384967
+    Attrib Total angle / total length    0.09251421125534598
+    Attrib Total duration    0.06663213355436706
+    Attrib Total length    -0.012331511591981488
+    Attrib Total length / BB diagonal    0.12047568120886995
+    Attrib Width to height ratio    -0.3069983856807069
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    0.14905167036487765
+    Attrib Angle of BB diagonal    0.382510662891353
+    Attrib Aspect    -0.09204000624286114
+    Attrib Average curvature    0.0047671956035457794
+    Attrib Average squared speed    -0.04631299810790367
+    Attrib Bounding box area    0.024030938527479458
+    Attrib Bounding box diagonal    -0.06255996165658155
+    Attrib Bounding box height    0.31900477004799693
+    Attrib Bounding box width    -0.3016256514874597
+    Attrib Convex hull area ratio    0.03704129323107296
+    Attrib Cos of first to last    -0.6456848817112515
+    Attrib Cos of initial angle    -0.5146476302304368
+    Attrib Curviness    0.04598312532183717
+    Attrib DCR    -0.2558266491675595
+    Attrib Density 1    -0.08251087004859398
+    Attrib Density 2    -0.04658902220815601
+    Attrib Distance first to last    -0.11868313625195405
+    Attrib Enclosing rectangle ratio    -0.06278016687545548
+    Attrib Entropy    -0.13698287584513444
+    Attrib Least square error    0.06326545560181826
+    Attrib Length perimeter ratio    0.11222729095203504
+    Attrib Length ratio    -0.03096289882374602
+    Attrib Log BB area    0.018729303482578098
+    Attrib Log aspect    -0.054453656690943375
+    Attrib Log longest BB side    -0.08776064750382741
+    Attrib Log total length    0.09130727553451425
+    Attrib Max curvature    -0.19145056031286722
+    Attrib Max speed squared    -0.06959310141571849
+    Attrib Min speed squared    0.06595197397080428
+    Attrib Movement    0.0041392269034534
+    Attrib NDDE    0.03367434472787721
+    Attrib Openness    -0.13977228970293085
+    Attrib Overtracing    -0.008629963258448649
+    Attrib Perimeter efficiency    0.15803604003367713
+    Attrib Perimeter to area    -0.09332318912667942
+    Attrib Point ratio    0.06294135628948899
+    Attrib Sharpness    -0.23454058200514838
+    Attrib Sin of first to last    0.1918173401170789
+    Attrib Sin of initial angle    0.21618283059121501
+    Attrib Thinness ratio    -0.1339786869705384
+    Attrib Total angle    0.033438883416638886
+    Attrib Total angle / total length    -0.09919320809924285
+    Attrib Total duration    0.025751280676124377
+    Attrib Total length    0.006333913449102242
+    Attrib Total length / BB diagonal    0.11768834118082737
+    Attrib Width to height ratio    -0.15187268810582152
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    0.013308373512249021
+    Attrib Angle of BB diagonal    0.281954855657234
+    Attrib Aspect    -0.23907337313104526
+    Attrib Average curvature    0.19120921841087202
+    Attrib Average squared speed    -0.06754978751775222
+    Attrib Bounding box area    0.1014981475827889
+    Attrib Bounding box diagonal    -0.1469218202942592
+    Attrib Bounding box height    0.29500898199531717
+    Attrib Bounding box width    -0.21152725532050834
+    Attrib Convex hull area ratio    0.07759099378877662
+    Attrib Cos of first to last    0.08180850388345158
+    Attrib Cos of initial angle    0.01640763397289831
+    Attrib Curviness    0.13920239274616195
+    Attrib DCR    -0.07270635321898844
+    Attrib Density 1    -0.03059654241317773
+    Attrib Density 2    -0.025985234071153062
+    Attrib Distance first to last    -0.22060453656231133
+    Attrib Enclosing rectangle ratio    -0.042034169496714256
+    Attrib Entropy    0.022898082720544
+    Attrib Least square error    0.21474125070418076
+    Attrib Length perimeter ratio    0.21106973408577667
+    Attrib Length ratio    0.005447568795066073
+    Attrib Log BB area    0.10505898178728533
+    Attrib Log aspect    -0.1820762417669617
+    Attrib Log longest BB side    -0.11819321410586184
+    Attrib Log total length    0.11922166154352265
+    Attrib Max curvature    -0.01046764082685362
+    Attrib Max speed squared    0.008615196124870233
+    Attrib Min speed squared    -0.09904822516573213
+    Attrib Movement    0.20359028271980828
+    Attrib NDDE    0.08268494639568812
+    Attrib Openness    -0.28090501331083073
+    Attrib Overtracing    0.13887742288549992
+    Attrib Perimeter efficiency    0.277034799962428
+    Attrib Perimeter to area    -0.10251567137589092
+    Attrib Point ratio    0.10884387071322539
+    Attrib Sharpness    -0.03135658599395214
+    Attrib Sin of first to last    0.08096211044158365
+    Attrib Sin of initial angle    0.07064382424086656
+    Attrib Thinness ratio    -0.10863979347769356
+    Attrib Total angle    0.20448400595844146
+    Attrib Total angle / total length    0.12309384233181093
+    Attrib Total duration    0.15113662819121612
+    Attrib Total length    0.05960536531921614
+    Attrib Total length / BB diagonal    0.25302545615360855
+    Attrib Width to height ratio    -0.10933742629279224
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -0.05618021124455836
+    Attrib Angle of BB diagonal    0.137024714221585
+    Attrib Aspect    0.05185784682244234
+    Attrib Average curvature    -0.17180555782791287
+    Attrib Average squared speed    0.03796411938847951
+    Attrib Bounding box area    -0.002544898719112313
+    Attrib Bounding box diagonal    -0.005831506742856758
+    Attrib Bounding box height    0.10875163045265991
+    Attrib Bounding box width    -0.10035031223829675
+    Attrib Convex hull area ratio    -0.035501008183189235
+    Attrib Cos of first to last    -0.7918844646240988
+    Attrib Cos of initial angle    -0.5384992124632434
+    Attrib Curviness    -0.039449421969523196
+    Attrib DCR    -0.1132591861811181
+    Attrib Density 1    -0.00852785540032049
+    Attrib Density 2    0.0394978988336271
+    Attrib Distance first to last    0.06468081440940378
+    Attrib Enclosing rectangle ratio    0.06942658145314247
+    Attrib Entropy    -0.11317511676936823
+    Attrib Least square error    0.01433910598498176
+    Attrib Length perimeter ratio    -0.010479118137130393
+    Attrib Length ratio    0.043785623686358514
+    Attrib Log BB area    -0.05106737039263071
+    Attrib Log aspect    -0.0428019141968622
+    Attrib Log longest BB side    0.004090443034110085
+    Attrib Log total length    -0.05084132845613939
+    Attrib Max curvature    -0.1402488571639018
+    Attrib Max speed squared    0.07471917097648724
+    Attrib Min speed squared    0.27403412570112623
+    Attrib Movement    -0.07273899001535762
+    Attrib NDDE    -0.10801659232287165
+    Attrib Openness    -0.0022241092651630674
+    Attrib Overtracing    -0.09517856401096103
+    Attrib Perimeter efficiency    -0.01627717325870587
+    Attrib Perimeter to area    -0.0033561683661701243
+    Attrib Point ratio    0.052370861742949956
+    Attrib Sharpness    -0.1137888805492521
+    Attrib Sin of first to last    0.02302771862831655
+    Attrib Sin of initial angle    0.05770439480547722
+    Attrib Thinness ratio    0.016344667306121635
+    Attrib Total angle    -0.12150530747318648
+    Attrib Total angle / total length    -0.15642071846217012
+    Attrib Total duration    -0.020699977704657587
+    Attrib Total length    -0.019096268547411897
+    Attrib Total length / BB diagonal    -0.01721989292733762
+    Attrib Width to height ratio    -0.00784085132268048
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    0.10370873554428411
+    Attrib Angle of BB diagonal    -0.17424414106992997
+    Attrib Aspect    -0.14574288449246398
+    Attrib Average curvature    0.10932943112405266
+    Attrib Average squared speed    -0.07570885527062227
+    Attrib Bounding box area    0.13989164263429715
+    Attrib Bounding box diagonal    -0.05279757531593529
+    Attrib Bounding box height    -0.12993221320308146
+    Attrib Bounding box width    0.16883448642991009
+    Attrib Convex hull area ratio    0.08377883091959842
+    Attrib Cos of first to last    0.49209912291882274
+    Attrib Cos of initial angle    0.3026038697179047
+    Attrib Curviness    0.10248997692140452
+    Attrib DCR    -0.08292098457014296
+    Attrib Density 1    -0.023946757466301743
+    Attrib Density 2    -0.08601302082205987
+    Attrib Distance first to last    -0.11904089182995177
+    Attrib Enclosing rectangle ratio    -0.09006387967222153
+    Attrib Entropy    0.08769040465220526
+    Attrib Least square error    0.027054806995383613
+    Attrib Length perimeter ratio    0.18724661373610216
+    Attrib Length ratio    -0.06064383780917248
+    Attrib Log BB area    0.17286621616074146
+    Attrib Log aspect    -0.05879450808061899
+    Attrib Log longest BB side    -0.11630288084303451
+    Attrib Log total length    0.14402483072217043
+    Attrib Max curvature    0.04623323335820533
+    Attrib Max speed squared    -0.10230071693681948
+    Attrib Min speed squared    -0.21859626108860228
+    Attrib Movement    0.12461760234350312
+    Attrib NDDE    0.16205414747490632
+    Attrib Openness    -0.20515674392183866
+    Attrib Overtracing    0.14415283001068827
+    Attrib Perimeter efficiency    0.2132642581282705
+    Attrib Perimeter to area    -0.02484147288811209
+    Attrib Point ratio    0.021692977538622815
+    Attrib Sharpness    0.002761760889512187
+    Attrib Sin of first to last    -0.16582545430932108
+    Attrib Sin of initial angle    -0.21201106182302132
+    Attrib Thinness ratio    -0.021146997552173752
+    Attrib Total angle    0.19802466655850168
+    Attrib Total angle / total length    0.10896104939103203
+    Attrib Total duration    0.11964479837484294
+    Attrib Total length    0.13696139152173692
+    Attrib Total length / BB diagonal    0.1871721128465847
+    Attrib Width to height ratio    -0.07716127512232406
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.11354610340317359
+    Attrib Angle of BB diagonal    -0.4703282530477702
+    Attrib Aspect    -0.2607162222033361
+    Attrib Average curvature    0.18315650627021082
+    Attrib Average squared speed    -0.16571745962238407
+    Attrib Bounding box area    0.08418112055411965
+    Attrib Bounding box diagonal    0.02916416910114821
+    Attrib Bounding box height    -0.28007066810300985
+    Attrib Bounding box width    0.31545576618735927
+    Attrib Convex hull area ratio    0.09947458290179853
+    Attrib Cos of first to last    0.5537655299914799
+    Attrib Cos of initial angle    0.41249579380044216
+    Attrib Curviness    0.08167142798987755
+    Attrib DCR    -0.060848398745820764
+    Attrib Density 1    -0.08553419372874395
+    Attrib Density 2    -0.18113989275782416
+    Attrib Distance first to last    -0.16053152470289977
+    Attrib Enclosing rectangle ratio    -0.17028291329128775
+    Attrib Entropy    0.033800424959612045
+    Attrib Least square error    -0.009258421740136104
+    Attrib Length perimeter ratio    0.19362810063300498
+    Attrib Length ratio    -0.045301812613022165
+    Attrib Log BB area    0.16504106900297702
+    Attrib Log aspect    -0.0705854404182147
+    Attrib Log longest BB side    -0.10532361639421554
+    Attrib Log total length    0.17560702957501384
+    Attrib Max curvature    -0.015802475349473176
+    Attrib Max speed squared    -0.15688527102535577
+    Attrib Min speed squared    -0.20937925841961633
+    Attrib Movement    0.21262054732602273
+    Attrib NDDE    0.17792119660890598
+    Attrib Openness    -0.2769635902965763
+    Attrib Overtracing    0.17033452246483233
+    Attrib Perimeter efficiency    0.18055345759911204
+    Attrib Perimeter to area    -0.11199401828340579
+    Attrib Point ratio    0.02855007660069833
+    Attrib Sharpness    0.07524376180850353
+    Attrib Sin of first to last    -0.2705612582024985
+    Attrib Sin of initial angle    -0.26815034688981554
+    Attrib Thinness ratio    -0.08443807759889574
+    Attrib Total angle    0.15373429887604376
+    Attrib Total angle / total length    0.13089294437727475
+    Attrib Total duration    0.12596756758201041
+    Attrib Total length    0.09482301945471237
+    Attrib Total length / BB diagonal    0.19862741322923635
+    Attrib Width to height ratio    0.0030318222108341158
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -0.06665167498739669
+    Attrib Angle of BB diagonal    -1.0383656292876347
+    Attrib Aspect    0.0313997479753674
+    Attrib Average curvature    -0.1462096538452007
+    Attrib Average squared speed    0.023465677429130225
+    Attrib Bounding box area    0.014312267718398278
+    Attrib Bounding box diagonal    0.1341534762956256
+    Attrib Bounding box height    -0.835467783897427
+    Attrib Bounding box width    0.785104668322384
+    Attrib Convex hull area ratio    -0.18060922888853442
+    Attrib Cos of first to last    -0.4205416377574191
+    Attrib Cos of initial angle    -0.2828473469248317
+    Attrib Curviness    0.0015088433700183698
+    Attrib DCR    -0.03358883878679626
+    Attrib Density 1    0.021440239549077846
+    Attrib Density 2    0.03408468668765302
+    Attrib Distance first to last    0.14176545206940186
+    Attrib Enclosing rectangle ratio    0.1702455602250889
+    Attrib Entropy    -0.06589402355113284
+    Attrib Least square error    -0.16373486895283532
+    Attrib Length perimeter ratio    -0.01120912465307738
+    Attrib Length ratio    0.015897955811928616
+    Attrib Log BB area    -0.006677549724920386
+    Attrib Log aspect    0.0651050691704523
+    Attrib Log longest BB side    0.1050017569108508
+    Attrib Log total length    0.019381614993581455
+    Attrib Max curvature    -0.0010749571922214264
+    Attrib Max speed squared    0.004816220560403934
+    Attrib Min speed squared    0.2983850792882834
+    Attrib Movement    -0.11154278306845436
+    Attrib NDDE    -0.11633908565518923
+    Attrib Openness    0.03629018855153414
+    Attrib Overtracing    -0.15334571787893195
+    Attrib Perimeter efficiency    -0.03983488111781014
+    Attrib Perimeter to area    0.12359635109040674
+    Attrib Point ratio    0.114450164789616
+    Attrib Sharpness    0.0056588630553883
+    Attrib Sin of first to last    -0.43603081301947877
+    Attrib Sin of initial angle    -0.4052866789085449
+    Attrib Thinness ratio    0.10336812866274799
+    Attrib Total angle    -0.13012844679630164
+    Attrib Total angle / total length    -0.17793052343105842
+    Attrib Total duration    -0.03243681604612773
+    Attrib Total length    0.018861318286556135
+    Attrib Total length / BB diagonal    -0.08909272541344189
+    Attrib Width to height ratio    0.297870800878388
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -0.11154074598742585
+    Attrib Angle of BB diagonal    0.9999107620492499
+    Attrib Aspect    0.006599745995952496
+    Attrib Average curvature    -0.007705361063003468
+    Attrib Average squared speed    0.1573287853984666
+    Attrib Bounding box area    -0.02463219644835516
+    Attrib Bounding box diagonal    -0.10318271039962389
+    Attrib Bounding box height    0.7472388626892685
+    Attrib Bounding box width    -0.7488926435549038
+    Attrib Convex hull area ratio    0.04973582850164482
+    Attrib Cos of first to last    0.11598082491765341
+    Attrib Cos of initial angle    0.0619370113699267
+    Attrib Curviness    0.08540866602681312
+    Attrib DCR    0.10091761313150809
+    Attrib Density 1    0.03223077801988889
+    Attrib Density 2    0.12208446287275737
+    Attrib Distance first to last    -0.015605637688553841
+    Attrib Enclosing rectangle ratio    -0.010808461423988157
+    Attrib Entropy    0.1156297443827079
+    Attrib Least square error    0.148276141354336
+    Attrib Length perimeter ratio    -0.06342650421248898
+    Attrib Length ratio    0.10182367413399074
+    Attrib Log BB area    -0.09258354162371799
+    Attrib Log aspect    0.00667268822347484
+    Attrib Log longest BB side    -0.11434186485439342
+    Attrib Log total length    -0.1135888404379953
+    Attrib Max curvature    0.0838966451690962
+    Attrib Max speed squared    0.14273244435797913
+    Attrib Min speed squared    -0.07381444438852276
+    Attrib Movement    -0.013287954338854375
+    Attrib NDDE    -0.044695674679933496
+    Attrib Openness    0.0933745109846628
+    Attrib Overtracing    -0.039467975239314154
+    Attrib Perimeter efficiency    -0.09484427732774225
+    Attrib Perimeter to area    0.007178385561824919
+    Attrib Point ratio    -0.1479375836643897
+    Attrib Sharpness    -0.024112302983356742
+    Attrib Sin of first to last    0.4758373152408484
+    Attrib Sin of initial angle    0.49676339063569064
+    Attrib Thinness ratio    0.05447682117405578
+    Attrib Total angle    0.04009123524906053
+    Attrib Total angle / total length    0.011272958712185319
+    Attrib Total duration    -0.030546779808255826
+    Attrib Total length    -0.09157413693538455
+    Attrib Total length / BB diagonal    0.007837502611309532
+    Attrib Width to height ratio    -0.12650944419270588
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.040556749029621114
+    Attrib Angle of BB diagonal    0.11238633312568443
+    Attrib Aspect    -0.29216525302352075
+    Attrib Average curvature    0.20329961745285843
+    Attrib Average squared speed    0.011160775899374134
+    Attrib Bounding box area    0.25582443765585344
+    Attrib Bounding box diagonal    -0.07599226579940782
+    Attrib Bounding box height    0.11590965152171204
+    Attrib Bounding box width    -0.10143121020135357
+    Attrib Convex hull area ratio    0.10844289847698009
+    Attrib Cos of first to last    -0.11023282581171256
+    Attrib Cos of initial angle    -0.12329326247698268
+    Attrib Curviness    0.1905115691998538
+    Attrib DCR    -0.06710718171546266
+    Attrib Density 1    0.055964613817516065
+    Attrib Density 2    -0.04757440446182123
+    Attrib Distance first to last    -0.25683646517217057
+    Attrib Enclosing rectangle ratio    -0.04714090223300734
+    Attrib Entropy    0.1152667596275186
+    Attrib Least square error    0.15544466980679567
+    Attrib Length perimeter ratio    0.2546703116141394
+    Attrib Length ratio    0.06528160246359713
+    Attrib Log BB area    0.12526176289643814
+    Attrib Log aspect    -0.2231421174396652
+    Attrib Log longest BB side    -0.15318382221158836
+    Attrib Log total length    0.17154970352055218
+    Attrib Max curvature    -0.017780735264085152
+    Attrib Max speed squared    -0.02430292710124294
+    Attrib Min speed squared    0.03594980335401061
+    Attrib Movement    0.2561675815743856
+    Attrib NDDE    0.09840980019256851
+    Attrib Openness    -0.29568547308718224
+    Attrib Overtracing    0.193802763662479
+    Attrib Perimeter efficiency    0.354298756501714
+    Attrib Perimeter to area    -0.10503427910420088
+    Attrib Point ratio    0.0856494699976642
+    Attrib Sharpness    0.07898080725053584
+    Attrib Sin of first to last    -0.04680379125382656
+    Attrib Sin of initial angle    -0.08907154048104902
+    Attrib Thinness ratio    -0.058320170972717356
+    Attrib Total angle    0.2552101916232199
+    Attrib Total angle / total length    0.17469312263264208
+    Attrib Total duration    0.1392226761883139
+    Attrib Total length    0.17843895339084695
+    Attrib Total length / BB diagonal    0.30841402279636637
+    Attrib Width to height ratio    -0.0667335544756793
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    0.004004406002969283
+    Attrib Angle of BB diagonal    -0.5716750790548152
+    Attrib Aspect    -0.22092763317751354
+    Attrib Average curvature    -0.09080807062537496
+    Attrib Average squared speed    0.0015890356712742353
+    Attrib Bounding box area    0.12434115634141496
+    Attrib Bounding box diagonal    0.039271683648669134
+    Attrib Bounding box height    -0.3486786906746506
+    Attrib Bounding box width    0.4452517721687552
+    Attrib Convex hull area ratio    -0.012962656637847392
+    Attrib Cos of first to last    -1.3052294358090624
+    Attrib Cos of initial angle    -0.9833789622516664
+    Attrib Curviness    0.08276831356181749
+    Attrib DCR    -0.35096640831571546
+    Attrib Density 1    0.04732206050957025
+    Attrib Density 2    -0.03141859342231317
+    Attrib Distance first to last    -0.13971904888340247
+    Attrib Enclosing rectangle ratio    0.1546503627381491
+    Attrib Entropy    -0.1802382634137464
+    Attrib Least square error    0.06217366036155532
+    Attrib Length perimeter ratio    0.210269695787545
+    Attrib Length ratio    0.03177289376947761
+    Attrib Log BB area    0.09722586601588679
+    Attrib Log aspect    -0.1410685078507431
+    Attrib Log longest BB side    -0.05691305461874108
+    Attrib Log total length    0.15383361966577283
+    Attrib Max curvature    -0.26923161238700316
+    Attrib Max speed squared    -0.04808662550300228
+    Attrib Min speed squared    0.45112757271964476
+    Attrib Movement    -9.558506448002139E-4
+    Attrib NDDE    -0.06473685325082185
+    Attrib Openness    -0.2374856850038915
+    Attrib Overtracing    0.011097901635345953
+    Attrib Perimeter efficiency    0.21504011354025504
+    Attrib Perimeter to area    -0.08573023462783566
+    Attrib Point ratio    0.30569750292134323
+    Attrib Sharpness    -0.15651435875518063
+    Attrib Sin of first to last    -0.24597300674821998
+    Attrib Sin of initial angle    -0.279934964646309
+    Attrib Thinness ratio    -0.10648522501520147
+    Attrib Total angle    0.00831114291400527
+    Attrib Total angle / total length    -0.16302154625120333
+    Attrib Total duration    0.07204395998691399
+    Attrib Total length    0.11793951234879003
+    Attrib Total length / BB diagonal    0.22166564585230772
+    Attrib Width to height ratio    0.12708282698794535
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    -0.054927341975508436
+    Attrib Angle of BB diagonal    -0.09216851698194363
+    Attrib Aspect    0.162617625736436
+    Attrib Average curvature    0.09322645541943654
+    Attrib Average squared speed    0.05210489751037016
+    Attrib Bounding box area    -0.057706167349094964
+    Attrib Bounding box diagonal    0.02142754564238968
+    Attrib Bounding box height    -0.07350086310875367
+    Attrib Bounding box width    0.04405812322512741
+    Attrib Convex hull area ratio    -0.04068722970585152
+    Attrib Cos of first to last    1.6148611410594662
+    Attrib Cos of initial angle    1.1932385541935433
+    Attrib Curviness    -0.06577709026200615
+    Attrib DCR    0.4659136045309914
+    Attrib Density 1    0.013781264690348643
+    Attrib Density 2    0.017404253714877138
+    Attrib Distance first to last    0.15664507381640008
+    Attrib Enclosing rectangle ratio    -0.09287341645394637
+    Attrib Entropy    0.1951738995620066
+    Attrib Least square error    -0.14051320226297923
+    Attrib Length perimeter ratio    -0.21766114068619613
+    Attrib Length ratio    0.02195095944802728
+    Attrib Log BB area    -0.04027843412560762
+    Attrib Log aspect    0.11039524246276229
+    Attrib Log longest BB side    0.08041437981100902
+    Attrib Log total length    -0.1419543410139404
+    Attrib Max curvature    0.41303524644710876
+    Attrib Max speed squared    0.10024287492798149
+    Attrib Min speed squared    -0.3637599845176138
+    Attrib Movement    0.02302973801344676
+    Attrib NDDE    -0.02964082792875256
+    Attrib Openness    0.2574368016107137
+    Attrib Overtracing    -0.03383049978827633
+    Attrib Perimeter efficiency    -0.21722800416364624
+    Attrib Perimeter to area    0.2000223256538486
+    Attrib Point ratio    -0.3001011286377583
+    Attrib Sharpness    0.27421111266141596
+    Attrib Sin of first to last    -0.003950641732653719
+    Attrib Sin of initial angle    -0.04569024206236727
+    Attrib Thinness ratio    0.17417123062551043
+    Attrib Total angle    0.04469898842283899
+    Attrib Total angle / total length    0.13750762438932906
+    Attrib Total duration    -0.053979167897882444
+    Attrib Total length    -0.13247917263671163
+    Attrib Total length / BB diagonal    -0.19877653563360095
+    Attrib Width to height ratio    0.024033569981191508
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    0.031462334776907706
+    Attrib Angle of BB diagonal    -0.02378773074160675
+    Attrib Aspect    -0.33644464089865195
+    Attrib Average curvature    0.24277840355743285
+    Attrib Average squared speed    0.003936541751093492
+    Attrib Bounding box area    0.24806000942567089
+    Attrib Bounding box diagonal    -0.008578382554216295
+    Attrib Bounding box height    0.00841443226031178
+    Attrib Bounding box width    0.08212928093501509
+    Attrib Convex hull area ratio    0.09445964037179416
+    Attrib Cos of first to last    0.050931452748457035
+    Attrib Cos of initial angle    0.028933294871745292
+    Attrib Curviness    0.18853629499207392
+    Attrib DCR    -0.12048745325459187
+    Attrib Density 1    0.07241081083740397
+    Attrib Density 2    -0.10038622970248291
+    Attrib Distance first to last    -0.29465801774806333
+    Attrib Enclosing rectangle ratio    -0.024884017563136483
+    Attrib Entropy    0.10562162296338054
+    Attrib Least square error    0.16935015229802586
+    Attrib Length perimeter ratio    0.25630409751451094
+    Attrib Length ratio    0.01533298278353307
+    Attrib Log BB area    0.1421733214357713
+    Attrib Log aspect    -0.20303442505791622
+    Attrib Log longest BB side    -0.10755481758671197
+    Attrib Log total length    0.21611831846099672
+    Attrib Max curvature    -0.017926107569216074
+    Attrib Max speed squared    0.020123115613375042
+    Attrib Min speed squared    -0.01978379308874585
+    Attrib Movement    0.20349119897039672
+    Attrib NDDE    0.10291810401725718
+    Attrib Openness    -0.3822619160701062
+    Attrib Overtracing    0.29724238805138686
+    Attrib Perimeter efficiency    0.3530809991492666
+    Attrib Perimeter to area    -0.10054815196949912
+    Attrib Point ratio    0.07539803884797266
+    Attrib Sharpness    0.10124868896243015
+    Attrib Sin of first to last    -0.14385226282587793
+    Attrib Sin of initial angle    -0.14452907359929756
+    Attrib Thinness ratio    -0.05577838342464795
+    Attrib Total angle    0.2397828416468544
+    Attrib Total angle / total length    0.13994378162651508
+    Attrib Total duration    0.19394464039053577
+    Attrib Total length    0.17699813999270664
+    Attrib Total length / BB diagonal    0.33041232143548915
+    Attrib Width to height ratio    -0.05825325310510704
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    0.16243459713360758
+    Attrib Angle of BB diagonal    -0.37434879397889226
+    Attrib Aspect    -0.1579586725612326
+    Attrib Average curvature    0.20041203771559013
+    Attrib Average squared speed    -0.17246711040903187
+    Attrib Bounding box area    0.10259920781135135
+    Attrib Bounding box diagonal    0.029758713693861075
+    Attrib Bounding box height    -0.2737953271034135
+    Attrib Bounding box width    0.28928419597147376
+    Attrib Convex hull area ratio    0.08706046747001374
+    Attrib Cos of first to last    0.983001375654953
+    Attrib Cos of initial angle    0.7151169387604104
+    Attrib Curviness    0.015140627896890592
+    Attrib DCR    0.09464881225018658
+    Attrib Density 1    -0.07269816554726852
+    Attrib Density 2    -0.08663219024417107
+    Attrib Distance first to last    -0.07634496225520564
+    Attrib Enclosing rectangle ratio    -0.21695551320760775
+    Attrib Entropy    0.1597295382525293
+    Attrib Least square error    -0.0554848240340261
+    Attrib Length perimeter ratio    0.1089790611850938
+    Attrib Length ratio    -0.08371290298043374
+    Attrib Log BB area    0.1528196374851726
+    Attrib Log aspect    -0.037999724987730174
+    Attrib Log longest BB side    -0.09382064983835557
+    Attrib Log total length    0.15487937792878337
+    Attrib Max curvature    0.06608887078961719
+    Attrib Max speed squared    -0.1308633396896884
+    Attrib Min speed squared    -0.3349054933674042
+    Attrib Movement    0.14656907894288712
+    Attrib NDDE    0.17020618988877417
+    Attrib Openness    -0.10678730507447076
+    Attrib Overtracing    0.17123227930959545
+    Attrib Perimeter efficiency    0.09452813647741042
+    Attrib Perimeter to area    -0.04083034587798706
+    Attrib Point ratio    -0.005530522757451909
+    Attrib Sharpness    0.09302974421184007
+    Attrib Sin of first to last    -0.20452634143102133
+    Attrib Sin of initial angle    -0.25407847542367734
+    Attrib Thinness ratio    0.02357829639978766
+    Attrib Total angle    0.21368465995346175
+    Attrib Total angle / total length    0.1880159311856182
+    Attrib Total duration    0.07044467937771987
+    Attrib Total length    0.09303348863780511
+    Attrib Total length / BB diagonal    0.1224239548571709
+    Attrib Width to height ratio    -0.033802146491699755
+Class gesture2
+    Input
+    Node 0
+Class gesture1
+    Input
+    Node 1
+Class gesture4
+    Input
+    Node 2
+Class gesture3
+    Input
+    Node 3
+
+
+Time taken to build model: 1.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         160              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0045
+Root mean squared error                  0.007 
+Relative absolute error                  1.2037 %
+Root relative squared error              1.6101 %
+Total Number of Instances              160     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     gesture2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     gesture1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     gesture4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     gesture3
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 40  0  0  0 |  a = gesture2
+  0 40  0  0 |  b = gesture1
+  0  0 40  0 |  c = gesture4
+  0  0  0 40 |  d = gesture3
+
